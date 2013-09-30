@@ -6,7 +6,8 @@ Convert
 Use following commands
 
 ```
-git clone git@github.com:sseshachala/check_mk.git@xervmon
+git clone -b xervmon git@github.com:sseshachala/check_mk.git
+cd check_mk/
 ./convert_xervmon.sh
 make
 ```
